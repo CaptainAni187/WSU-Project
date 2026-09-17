@@ -217,19 +217,25 @@ The corpus consists of public Reddit content that includes usernames and sensiti
 
 ## Authors
 
-Chinmaya Krishna B, Animesh Kumar, Piyush Kumar, Misty M — Manipal Institute of Technology, Manipal, India
-Tanvi Banerjee, William Romine — Data Science for Healthcare Lab, Wright State University, Dayton, USA
-Ramakrishna Mundugar — Manipal Institute of Technology, Manipal, India
+| Author | Affiliation |
+|---|---|
+| Chinmaya Krishna B | School of Computer Engineering, Manipal Institute of Technology, Manipal, India |
+| Animesh Kumar | School of Electrical Engineering, Manipal Institute of Technology, Manipal, India |
+| Piyush Kumar | School of Basic Sciences, Humanities and Management, Manipal Institute of Technology, Manipal, India |
+| Misty M | School of Electrical Engineering, Manipal Institute of Technology, Manipal, India |
+| Tanvi Banerjee | Data Science for Healthcare Lab, Wright State University, Dayton, USA |
+| William Romine | Data Science for Healthcare Lab, Wright State University, Dayton, USA |
+| Ramakrishna Mundugar | School of Computer Engineering, Manipal Institute of Technology, Manipal, India |
 
 ## Citation
 
 The paper is under review; please cite it as below until a published version is available.
 
 ```bibtex
-@unpublished{krishna2026willitevergetbetter,
+@unpublished{krishnab2026willitevergetbetter,
   title  = {``Will It Ever Get Better?'': Understanding Psychological Distress Among Indian Students Through Reddit},
-  author = {Krishna B, Chinmaya and Kumar, Animesh and Kumar, Piyush and M, Misty and
-            Banerjee, Tanvi and Romine, William and Mundugar, Ramakrishna},
+  author = {{Chinmaya Krishna B} and {Animesh Kumar} and {Piyush Kumar} and {Misty M} and
+            {Tanvi Banerjee} and {William Romine} and {Ramakrishna Mundugar}},
   note   = {Submitted to the IEEE International Conference on Big Data (IEEE BigData 2026)},
   year   = {2026}
 }
