@@ -1,0 +1,119 @@
+{
+  "model": "HingBERT-Mixed-v2",
+  "results": [
+    {
+      "query": "jee burnout exam stress unable to study",
+      "top1_doc": "register for jee study for that side by side with college",
+      "top1_score": 1.0,
+      "top1_relevance": 0.222,
+      "avg_relevance": 0.111,
+      "top10_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "query": "nta ki mkc unfair exam result frustration",
+      "top1_doc": "bro curriculum of nits is not good",
+      "top1_score": 0.9998,
+      "top1_relevance": 0.0,
+      "avg_relevance": 0.043,
+      "top10_scores": [
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998
+      ]
+    },
+    {
+      "query": "drop year regret feeling wasted my life",
+      "top1_doc": "drop_year before drop_year",
+      "top1_score": 0.9998,
+      "top1_relevance": 0.286,
+      "avg_relevance": 0.214,
+      "top10_scores": [
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998,
+        0.9998
+      ]
+    },
+    {
+      "query": "placement anxiety no job offers tier 3 college",
+      "top1_doc": "placement se zyada paisa religious sentiments ko capitalize karke mil raha toh career path change karliya \ud83d\udc41\ufe0f\ud83d\udc44\ud83d\udc41\ufe0f",
+      "top1_score": 0.9979,
+      "top1_relevance": 0.125,
+      "avg_relevance": 0.15,
+      "top10_scores": [
+        0.9979,
+        0.9978,
+        0.9978,
+        0.9977,
+        0.9977,
+        0.9977,
+        0.9976,
+        0.9976,
+        0.9976,
+        0.9976
+      ]
+    },
+    {
+      "query": "suicidal after jee feel like dying no hope",
+      "top1_doc": "suicidal? how tf is your life over bruv?",
+      "top1_score": 0.9995,
+      "top1_relevance": 0.0,
+      "avg_relevance": 0.029,
+      "top10_scores": [
+        0.9995,
+        0.9994,
+        0.9994,
+        0.9994,
+        0.9994,
+        0.9994,
+        0.9994,
+        0.9994,
+        0.9994,
+        0.9994
+      ]
+    },
+    {
+      "query": "life barbaad sab khatam failed everything",
+      "top1_doc": "life is fucked up man\ud83e\udec2",
+      "top1_score": 0.9997,
+      "top1_relevance": 0.143,
+      "avg_relevance": 0.143,
+      "top10_scores": [
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9997,
+        0.9996
+      ]
+    }
+  ]
+}

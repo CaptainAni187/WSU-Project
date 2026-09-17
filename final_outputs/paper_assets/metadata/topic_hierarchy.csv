@@ -1,0 +1,41 @@
+Parent_ID,Parent_Name,Topics,Child_Left_ID,Child_Left_Name,Child_Right_ID,Child_Right_Name,Distance
+80,don_college_jee_job_exam,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]",78,jee_drop_physics_maths_coaching,79,don_job_college_work_ve,1.8219842368222978
+79,don_job_college_work_ve,"[0, 1, 3, 4, 5, 7, 9, 10, 12, 13, 17, 19, 20, 21, 23, 26, 28, 29, 31, 32, 33, 34, 36, 37, 39]",77,engineering_job_college_work_don,71,don_cat_exam_life_study,1.3818552657054104
+78,jee_drop_physics_maths_coaching,"[2, 6, 8, 11, 14, 15, 16, 18, 22, 24, 25, 27, 30, 35, 38, 40]",76,bsdk_cooked_hopium_daddy_alecc,75,jee_drop_physics_maths_coaching,1.210386450489313
+77,engineering_job_college_work_don,"[0, 1, 4, 5, 7, 13, 20, 23, 28, 29, 36, 37]",65,gate_cse_college_ece_branch,73,engineering_job_work_company_ve,1.0340316828210383
+76,bsdk_cooked_hopium_daddy_alecc,"[6, 14, 22, 24, 30]",74,bsdk_daddy_alecc_alecc daddy_padhle,70,cooked_hopium_copium_chud_prodijee,1.0163977671642042
+75,jee_drop_physics_maths_coaching,"[2, 8, 11, 15, 16, 18, 25, 27, 35, 38, 40]",72,physics_jee_maths_coaching_sir,68,drop_jee_advanced_partial_mains,0.9966195800253254
+74,bsdk_daddy_alecc_alecc daddy_padhle,"[6, 22]",22,daddy_alecc_alecc daddy_anup_anup daddy,6,bsdk_padhle_padhle bsdk_stress_suicidal,0.9873107079447762
+73,engineering_job_work_company_ve,"[0, 4, 7, 13, 20, 23, 28, 37]",66,engineering_job_work_company_ve,20,tcs_nqt_tcs nqt_ninja_digital,0.9785980856684775
+72,physics_jee_maths_coaching_sir,"[2, 8, 11, 15, 25, 35, 40]",40,fiitjee_aits_teachers_centre_fiitjee aits,63,physics_jee_maths_coaching_sir,0.9477522031659332
+71,don_cat_exam_life_study,"[3, 9, 10, 12, 17, 19, 21, 26, 31, 32, 33, 34, 39]",67,cat_don_life_exam_didn,59,cbse_boards_marks_results_board,0.9477052838438944
+70,cooked_hopium_copium_chud_prodijee,"[14, 24, 30]",69,hopium_copium_chud_guru_prodijee,24,cooked_marks_chat_shift_maths,0.9359095066343288
+69,hopium_copium_chud_guru_prodijee,"[14, 30]",30,chud_guru_lag_rassi_barbaad,14,hopium_copium_prodijee_percentile_marks,0.9075047663730389
+68,drop_jee_advanced_partial_mains,"[16, 18, 27, 38]",64,advanced_jee advanced_jee_bitsat_test series,48,drop_jee_partial_college_partial drop,0.8784460467048073
+67,cat_don_life_exam_didn,"[3, 9, 10, 19, 21, 26, 31, 33, 34, 39]",60,cat_mba_iim_interview_profile,62,don_life_exam_upsc_study,0.8439812932451483
+66,engineering_job_work_company_ve,"[0, 4, 7, 13, 23, 28, 37]",53,engineering_job_ve_work_don,54,company_dsa_lpa_offer_job,0.8061093096749364
+65,gate_cse_college_ece_branch,"[1, 5, 29, 36]",50,cse_branch_ece_college_nit,58,gate_cgpa_sem_college_mtech,0.7822033231625513
+64,advanced_jee advanced_jee_bitsat_test series,"[18, 38]",38,bitsat_test series_series_test_mathongo,18,advanced_jee advanced_jee_adv_jee adv,0.7778134846877506
+63,physics_jee_maths_coaching_sir,"[2, 8, 11, 15, 25, 35]",61,physics_jee_maths_coaching_sir,11,wasted_poll_view poll_view_barbaad,0.774141400190176
+62,don_life_exam_upsc_study,"[3, 21, 26, 31, 33, 34, 39]",56,don_life_exam_upsc_study,49,neet_science_commerce_stream_pcb,0.7607152991111333
+61,physics_jee_maths_coaching_sir,"[2, 8, 15, 25, 35]",57,physics_maths_sir_hain_din,55,modules_coaching_allen_books_online,0.7543040272121249
+60,cat_mba_iim_interview_profile,"[9, 10, 19]",19,p1_p2_interview_told_answered,45,cat_mba_iim_profile_xat,0.7321784582945774
+59,cbse_boards_marks_results_board,"[12, 17, 32]",52,boards_marks_board_exam_paper,17,results_cbse_result_release_date,0.6976938561786953
+58,gate_cgpa_sem_college_mtech,"[1, 36]",1,gate_mtech_exam_gate exam_job,36,cgpa_sem_semester_college_backlogs,0.6530696661455181
+57,physics_maths_sir_hain_din,"[2, 8, 35]",2,din_baad_saal_mei_baat,44,physics_sir_maths_chemistry_chapters,0.627595835159313
+56,don_life_exam_upsc_study,"[3, 26, 33, 34, 39]",33,exam_card_admit card_admit_centre,51,life_don_upsc_study_jee,0.6247203735004286
+55,modules_coaching_allen_books_online,"[15, 25]",15,modules_books_book_cengage_hcv,25,coaching_online_offline_batch_allen,0.5861361175431785
+54,company_dsa_lpa_offer_job,"[0, 4, 23]",42,company_lpa_offer_role_job,0,dsa_leetcode_coding_learn_learning,0.5498867767095805
+53,engineering_job_ve_work_don,"[7, 13, 28, 37]",13,india_abroad_masters_university_germany,47,engineering_ve_semester_school_work,0.5379650474629538
+52,boards_marks_board_exam_paper,"[12, 32]",32,improvement_compartment_improvement exam_exam_cbse,12,boards_marks_board_paper_maths,0.49559003840557003
+51,life_don_upsc_study_jee,"[3, 26, 34, 39]",46,jee_life_don_study_parents,3,upsc_prelims_attempt_exam_preparation,0.46838614138400375
+50,cse_branch_ece_college_nit,"[5, 29]",29,ece_cse_vs_btech_btech cse,5,branch_cse_college_nit_ece,0.4652973230272194
+49,neet_science_commerce_stream_pcb,"[21, 31]",31,neet_bsc_pcb_mbbs_career,21,commerce_science_stream_pcm_maths,0.45866642198879515
+48,drop_jee_partial_college_partial drop,"[16, 27]",16,drop_jee_college_percentile_mains,27,partial_partial drop_drop_dropper_double,0.45752496716768787
+47,engineering_ve_semester_school_work,"[7, 28, 37]",7,internship_resume_job_experience_summer,43,engineering_semester_classes_school_degree,0.3935376640236762
+46,jee_life_don_study_parents,"[26, 34, 39]",34,sleep_study_hours_anxiety_stress,41,jee_life_friends_parents_school,0.3783244195617151
+45,cat_mba_iim_profile_xat,"[9, 10]",10,cat_mba_iim_profile_job,9,cat_varc_mocks_dilr_quants,0.36520120451406557
+44,physics_sir_maths_chemistry_chapters,"[8, 35]",8,sir_maths_hain_physics_lectures,35,physics_chemistry_maths_chapters_class,0.36064012116323696
+43,engineering_semester_classes_school_degree,"[28, 37]",37,engineering_semester_classes_school_ve,28,engineering_computer_electrical_major_ee,0.3159763239532797
+42,company_lpa_offer_role_job,"[4, 23]",23,company_interview_hr_ghosted_round,4,lpa_company_role_offer_work,0.28457110836369937
+41,jee_life_friends_parents_school,"[26, 39]",39,jee_school_parents_started_didn,26,friends_life_college_don_talk,0.2697724912254076

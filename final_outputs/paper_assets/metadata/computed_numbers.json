@@ -1,0 +1,122 @@
+{
+  "n_corpus": 70425,
+  "n_assigned": 69845,
+  "n_outliers": 580,
+  "top5_coverage_pct": 25.2,
+  "top10_coverage_pct": 44.1,
+  "size_min": 498,
+  "size_max": 4770,
+  "size_median": 1420,
+  "size_mean": 1703.5,
+  "size_cv_pct": 55.7,
+  "topic_size_entropy_norm": 0.9609,
+  "theme_size_entropy_norm": 0.9387,
+  "most_coherent_topic": 2,
+  "most_coherent_cv": 0.8599,
+  "least_coherent_topic": 6,
+  "least_coherent_cv": 0.3011,
+  "mean_per_topic_cv": 0.6518,
+  "mean_confidence": 0.7326,
+  "size_coherence_pearson_r": 0.341,
+  "redundancy_graph_threshold": 0.92,
+  "redundancy_edges_at_threshold": 55,
+  "pairs_gt_0_90": 128,
+  "pairs_gt_0_80": 610,
+  "max_pair_cosine": 0.9548,
+  "theme_quality": {
+    "General Venting": {
+      "mean_cv": 0.8599,
+      "mean_confidence": 0.7551
+    },
+    "Careers, Placements & Jobs": {
+      "mean_cv": 0.7644,
+      "mean_confidence": 0.719
+    },
+    "Entrance Exam Preparation": {
+      "mean_cv": 0.6937,
+      "mean_confidence": 0.7391
+    },
+    "College & Academic Decisions": {
+      "mean_cv": 0.6792,
+      "mean_confidence": 0.741
+    },
+    "Higher Studies & Global Mobility": {
+      "mean_cv": 0.6715,
+      "mean_confidence": 0.7413
+    },
+    "Coaching & Study Resources": {
+      "mean_cv": 0.6377,
+      "mean_confidence": 0.7187
+    },
+    "Mental Health & Wellbeing": {
+      "mean_cv": 0.4703,
+      "mean_confidence": 0.7226
+    },
+    "Coping & Meme Culture": {
+      "mean_cv": 0.4637,
+      "mean_confidence": 0.7152
+    }
+  },
+  "distress_by_lifecycle": {
+    "school": {
+      "Academic Distress": 65.61,
+      "Career Distress": 0.77,
+      "Emotional Distress": 4.08,
+      "Institutional Distress": 2.96,
+      "Coping Expression": 15.18,
+      "Informational / Low-Distress": 11.4
+    },
+    "competitive_exam": {
+      "Academic Distress": 44.99,
+      "Career Distress": 12.04,
+      "Emotional Distress": 8.2,
+      "Institutional Distress": 6.51,
+      "Coping Expression": 21.32,
+      "Informational / Low-Distress": 6.93
+    },
+    "undergraduate": {
+      "Academic Distress": 18.45,
+      "Career Distress": 29.06,
+      "Emotional Distress": 8.97,
+      "Institutional Distress": 0.92,
+      "Coping Expression": 1.7,
+      "Informational / Low-Distress": 40.9
+    },
+    "career": {
+      "Academic Distress": 3.75,
+      "Career Distress": 91.99,
+      "Emotional Distress": 0.91,
+      "Institutional Distress": 0.67,
+      "Coping Expression": 0.33,
+      "Informational / Low-Distress": 2.35
+    },
+    "higher_education": {
+      "Academic Distress": 4.71,
+      "Career Distress": 88.58,
+      "Emotional Distress": 1.22,
+      "Institutional Distress": 0.96,
+      "Coping Expression": 0.17,
+      "Informational / Low-Distress": 4.36
+    }
+  },
+  "lifecycle_counts": {
+    "career": 9077,
+    "competitive_exam": 34812,
+    "higher_education": 1147,
+    "school": 7235,
+    "undergraduate": 17574
+  },
+  "subreddit_counts": {
+    "Btechtards": 7108,
+    "CATpreparation": 7331,
+    "CBSE": 7235,
+    "EngineeringStudents": 6933,
+    "GATEtard": 2066,
+    "IndianEngineers": 120,
+    "Indian_Academia": 3533,
+    "Indians_StudyAbroad": 1147,
+    "JEENEETards": 23604,
+    "UPSC": 3529,
+    "developersIndia": 7239
+  }
+}

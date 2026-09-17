@@ -1,0 +1,16 @@
+{
+  "model_name": "bge_m3",
+  "metrics": {
+    "total_docs": 70425,
+    "n_topics": 98,
+    "outlier_rate": 0.0003,
+    "norm_entropy": 0.9513,
+    "gini_coeff": 0.3716,
+    "top3_concentration": 0.0994,
+    "coherence_proxy": 0.097,
+    "topic_diversity": 0.4867,
+    "keyword_stability": 0.2558,
+    "phrases_found": 5,
+    "artifact_topics": 0
+  }
+}

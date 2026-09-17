@@ -1,0 +1,9 @@
+{
+  "model": "bge_m3",
+  "c_v": 0.566,
+  "c_npmi": 0.0987,
+  "n_topics": 98,
+  "dictionary_size": 24920,
+  "sample_size": 20000,
+  "elapsed_seconds": 41.4
+}

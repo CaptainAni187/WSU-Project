@@ -1,0 +1,9 @@
+{
+  "model": "HingBERT-Mixed-v2",
+  "c_v": 0.5149,
+  "c_npmi": 0.0155,
+  "n_topics": 114,
+  "dictionary_size": 12806,
+  "sample_size": 20000,
+  "elapsed_seconds": 5.6
+}

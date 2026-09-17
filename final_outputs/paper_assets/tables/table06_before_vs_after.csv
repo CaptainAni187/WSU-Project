@@ -1,0 +1,10 @@
+metric,before_98,after_41
+Topics,98.0,41.0
+c_v,0.6258,0.6518
+c_npmi,0.1356,0.1419
+Topic diversity,0.6408,0.7195
+Outlier rate,0.0003,0.0082
+Redundant pairs (>0.90),280.0,128.0
+Tiny topics (<200),4.0,0.0
+Smallest topic,149.0,498.0
+Largest topic,2636.0,4770.0

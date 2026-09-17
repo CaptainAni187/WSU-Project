@@ -1,0 +1,24 @@
+# Tested with Python 3.13 on macOS (Apple Silicon / MPS). CUDA and CPU also work.
+
+# data + numerics
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+
+# deep learning / embeddings
+torch>=2.3
+transformers>=4.44
+sentence-transformers>=3.0
+
+# topic modelling
+bertopic>=0.16
+umap-learn>=0.5.6
+hdbscan>=0.8.38
+gensim>=4.3          # c_v / c_npmi coherence
+
+# visualisation
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20         # topic -> theme -> distress Sankey
+kaleido>=0.2         # static image export for the Sankey

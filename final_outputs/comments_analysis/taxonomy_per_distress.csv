@@ -1,0 +1,8 @@
+distress_type,advice_guidance,blame_criticism,crisis_escalation,dismissive_minimizing,encouragement_motivation,humor_meme_coping,information_resources,neutral_discussion,personal_experience,self_disclosure,support_empathy,toxic_abusive
+academic_burnout,951,16,39,64,127,660,277,1642,85,58,73,179
+career_anxiety,920,10,24,55,128,262,222,1446,65,83,75,123
+depression_anxiety,11354,216,527,696,2254,6590,2569,17445,1139,969,1292,2303
+exam_stress,1557,12,28,86,229,1239,443,2689,142,88,95,294
+institutional_anger,671,12,34,54,194,1766,347,4412,141,32,38,567
+meme_distress,6417,181,206,440,1160,11473,3131,28938,1031,335,432,3073
+suicidal,2407,33,428,189,603,2009,603,4218,286,186,370,732

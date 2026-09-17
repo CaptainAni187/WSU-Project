@@ -1,0 +1,42 @@
+topic_id,topic_name,documents,percentage,c_v,mean_confidence,theme,distress_type
+2,"din, baad, saal, mei",4770,6.77,0.8599,0.7551,General Venting,Coping Expression
+9,"cat, varc, mocks, dilr",1815,2.58,0.8459,0.7438,Entrance Exam Preparation,Academic Distress
+0,"dsa, leetcode, coding, learn",3398,4.82,0.8104,0.7023,"Careers, Placements & Jobs",Career Distress
+23,"company, interview, hr, ghosted",1469,2.09,0.8087,0.7242,"Careers, Placements & Jobs",Career Distress
+25,"coaching, online, offline, batch",1222,1.74,0.7781,0.727,Coaching & Study Resources,Institutional Distress
+15,"modules, books, book, cengage",1420,2.02,0.7774,0.6862,Coaching & Study Resources,Informational / Low-Distress
+8,"sir, maths, hain, physics",2432,3.45,0.7703,0.7442,Coaching & Study Resources,Academic Distress
+19,"p1, p2, interview, told",649,0.92,0.7692,0.7346,"Careers, Placements & Jobs",Career Distress
+5,"branch, cse, college, nit",2485,3.53,0.7564,0.7231,College & Academic Decisions,Informational / Low-Distress
+4,"lpa, company, role, offer",2763,3.92,0.7562,0.7137,"Careers, Placements & Jobs",Career Distress
+35,"physics, chemistry, maths, chapters",1880,2.67,0.7544,0.736,Entrance Exam Preparation,Academic Distress
+27,"partial, partial drop, drop, dropper",767,1.09,0.753,0.7256,Entrance Exam Preparation,Academic Distress
+7,"internship, resume, job, experience",2250,3.19,0.7487,0.746,"Careers, Placements & Jobs",Career Distress
+13,"india, abroad, masters, university",1960,2.78,0.7395,0.7153,Higher Studies & Global Mobility,Career Distress
+28,"engineering, computer, electrical, major",1288,1.83,0.7388,0.7581,College & Academic Decisions,Informational / Low-Distress
+38,"bitsat, test series, series, test",794,1.13,0.7209,0.6978,Entrance Exam Preparation,Academic Distress
+16,"drop, jee, college, percentile",2322,3.3,0.7111,0.7546,Entrance Exam Preparation,Academic Distress
+18,"advanced, jee advanced, jee, adv",1306,1.85,0.7107,0.6899,Entrance Exam Preparation,Academic Distress
+29,"ece, cse, vs, btech",962,1.37,0.7044,0.6894,College & Academic Decisions,Informational / Low-Distress
+20,"tcs, nqt, tcs nqt, ninja",748,1.06,0.6933,0.7089,"Careers, Placements & Jobs",Career Distress
+12,"boards, marks, board, paper",2704,3.84,0.6781,0.7431,Entrance Exam Preparation,Academic Distress
+32,"improvement, compartment, improvement exam, exam",856,1.22,0.6698,0.7504,Entrance Exam Preparation,Academic Distress
+31,"neet, bsc, pcb, mbbs",1026,1.46,0.6612,0.7731,Entrance Exam Preparation,Academic Distress
+10,"cat, mba, iim, profile",3366,4.78,0.6409,0.7488,Higher Studies & Global Mobility,Career Distress
+21,"commerce, science, stream, pcm",1350,1.92,0.6403,0.7447,College & Academic Decisions,Informational / Low-Distress
+1,"gate, mtech, exam, gate exam",2119,3.01,0.634,0.7535,Higher Studies & Global Mobility,Career Distress
+36,"cgpa, sem, semester, college",1107,1.57,0.6236,0.7499,College & Academic Decisions,Academic Distress
+3,"upsc, prelims, attempt, exam",2758,3.92,0.6201,0.7363,Entrance Exam Preparation,Academic Distress
+37,"engineering, semester, classes, school",3184,4.52,0.6115,0.7589,College & Academic Decisions,Informational / Low-Distress
+34,"sleep, study, hours, anxiety",1533,2.18,0.5573,0.7449,Mental Health & Wellbeing,Emotional Distress
+33,"exam, card, admit card, admit",995,1.41,0.5526,0.6996,Coaching & Study Resources,Institutional Distress
+26,"friends, life, college, don",1781,2.53,0.5524,0.7314,Mental Health & Wellbeing,Emotional Distress
+17,"results, cbse, result, release",1370,1.95,0.5422,0.7169,Coaching & Study Resources,Academic Distress
+22,"daddy, alecc, alecc daddy, anup",544,0.77,0.5268,0.7612,Coping & Meme Culture,Coping Expression
+39,"jee, school, parents, started",2908,4.13,0.5055,0.7461,Entrance Exam Preparation,Academic Distress
+24,"cooked, marks, chat, shift",836,1.19,0.5023,0.7253,Coping & Meme Culture,Coping Expression
+14,"hopium, copium, prodijee, percentile",959,1.36,0.4972,0.7132,Coping & Meme Culture,Coping Expression
+30,"chud, guru, lag, rassi",608,0.86,0.4724,0.7031,Coping & Meme Culture,Coping Expression
+40,"fiitjee, aits, teachers, centre",498,0.71,0.4054,0.7093,Coaching & Study Resources,Institutional Distress
+11,"wasted, poll, view poll, view",1133,1.61,0.32,0.6939,Coping & Meme Culture,Coping Expression
+6,"bsdk, padhle, padhle bsdk, stress",1510,2.14,0.3011,0.6895,Mental Health & Wellbeing,Emotional Distress

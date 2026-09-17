@@ -1,0 +1,128 @@
+{
+  "model": "BERTopic on frozen BAAI/bge-m3 post embeddings",
+  "config": {
+    "config_id": "u_nn50_c10__h_mcs300_ms10_leaf",
+    "umap": {
+      "n_neighbors": 50,
+      "n_components": 10,
+      "min_dist": 0.0,
+      "metric": "cosine",
+      "random_state": 42
+    },
+    "hdbscan": {
+      "min_cluster_size": 300,
+      "min_samples": 10,
+      "cluster_selection_method": "leaf",
+      "metric": "euclidean"
+    },
+    "representation": "corpus-level stopword+bigram CountVectorizer + KeyBERTInspired + MaximalMarginalRelevance(0.3)",
+    "outlier_reduction": "reduce_outliers(strategy='c-tf-idf', threshold=0.05)",
+    "embeddings": "BAAI/bge-m3 (FROZEN), 70425 x 1024, L2-normalized"
+  },
+  "n_topics": 41,
+  "n_documents_corpus": 70425,
+  "n_documents_assigned": 69845,
+  "n_outliers": 580,
+  "n_documents": 69845,
+  "n_themes": 8,
+  "quality": {
+    "config_id": "u_nn50_c10__h_mcs300_ms10_leaf",
+    "n_topics": 41,
+    "outlier_rate": 0.0082,
+    "avg_topic_size": 1703.5,
+    "median_topic_size": 1420,
+    "smallest_topic": 498,
+    "largest_topic": 4770,
+    "size_std": 949.6,
+    "topics_lt_100": 0,
+    "topics_lt_200": 0,
+    "c_v": 0.6518,
+    "c_npmi": 0.1419,
+    "topic_diversity": 0.7195,
+    "intra_sim": 0.7285,
+    "inter_sim_emb": 0.8327,
+    "inter_sim_ctfidf": 0.2156,
+    "separation": -0.1042,
+    "redundant_pairs": 128
+  },
+  "baseline_98_same_pipeline": {
+    "n_topics": 98,
+    "outlier_rate": 0.0003,
+    "avg_topic_size": 718.4,
+    "median_topic_size": 607,
+    "smallest_topic": 149,
+    "largest_topic": 2636,
+    "size_std": 513.5,
+    "topics_lt_100": 0,
+    "topics_lt_200": 4,
+    "c_v": 0.6258,
+    "c_npmi": 0.1356,
+    "topic_diversity": 0.6408,
+    "intra_sim": 0.7432,
+    "inter_sim_emb": 0.786,
+    "inter_sim_ctfidf": 0.1457,
+    "separation": -0.0428,
+    "redundant_pairs": 280
+  },
+  "theme_frequencies": {
+    "Entrance Exam Preparation": {
+      "documents": 19136,
+      "percentage": 27.4
+    },
+    "Careers, Placements & Jobs": {
+      "documents": 11277,
+      "percentage": 16.15
+    },
+    "College & Academic Decisions": {
+      "documents": 10376,
+      "percentage": 14.86
+    },
+    "Coaching & Study Resources": {
+      "documents": 7937,
+      "percentage": 11.36
+    },
+    "Higher Studies & Global Mobility": {
+      "documents": 7445,
+      "percentage": 10.66
+    },
+    "Mental Health & Wellbeing": {
+      "documents": 4824,
+      "percentage": 6.91
+    },
+    "General Venting": {
+      "documents": 4770,
+      "percentage": 6.83
+    },
+    "Coping & Meme Culture": {
+      "documents": 4080,
+      "percentage": 5.84
+    }
+  },
+  "distress_frequencies": {
+    "Academic Distress": {
+      "documents": 24045,
+      "percentage": 34.43
+    },
+    "Career Distress": {
+      "documents": 18722,
+      "percentage": 26.81
+    },
+    "Informational / Low-Distress": {
+      "documents": 10689,
+      "percentage": 15.3
+    },
+    "Coping Expression": {
+      "documents": 8850,
+      "percentage": 12.67
+    },
+    "Emotional Distress": {
+      "documents": 4824,
+      "percentage": 6.91
+    },
+    "Institutional Distress": {
+      "documents": 2715,
+      "percentage": 3.89
+    }
+  },
+  "mean_per_topic_c_v": 0.6518
+}

@@ -1,0 +1,13 @@
+Class,assistant count,human count,percentage difference
+advice_guidance,25,23,-8.0
+blame_criticism,25,4,-84.0
+crisis_escalation,25,7,-72.0
+dismissive_minimizing,25,0,-100.0
+encouragement_motivation,25,9,-64.0
+humor_meme_coping,25,4,-84.0
+information_resources,25,0,-100.0
+neutral_discussion,25,215,760.0
+personal_experience,25,21,-16.0
+self_disclosure,25,0,-100.0
+support_empathy,25,13,-48.0
+toxic_abusive,25,4,-84.0

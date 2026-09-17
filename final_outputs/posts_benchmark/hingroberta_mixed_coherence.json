@@ -1,0 +1,9 @@
+{
+  "model": "hingroberta_mixed",
+  "c_v": 0.5348,
+  "c_npmi": 0.0791,
+  "n_topics": 63,
+  "dictionary_size": 24920,
+  "sample_size": 20000,
+  "elapsed_seconds": 32.5
+}

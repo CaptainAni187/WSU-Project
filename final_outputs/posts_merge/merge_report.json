@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-07-02T10:42:42.319266",
+  "total_before_dedup": 71873,
+  "total_after_dedup": 70425,
+  "duplicates_removed": {
+    "by_id": 209,
+    "by_permalink": 0,
+    "by_exact_text": 1239,
+    "by_near_duplicate": 0,
+    "total_removed": 1448
+  },
+  "subreddit_distribution": {
+    "JEENEETards": 23914,
+    "CATpreparation": 7373,
+    "developersIndia": 7335,
+    "CBSE": 7267,
+    "Btechtards": 7154,
+    "EngineeringStudents": 6952,
+    "UPSC": 3553,
+    "Indian_Academia": 3540,
+    "GATEtard": 2068,
+    "Indians_StudyAbroad": 1147,
+    "IndianEngineers": 122
+  },
+  "lifecycle_distribution": {
+    "competitive_exam": 35189,
+    "undergraduate": 17646,
+    "career": 9176,
+    "school": 7267,
+    "higher_education": 1147
+  },
+  "source_distribution": {
+    "phase1.csv": 23914,
+    "extra.csv": 23229,
+    "phase2.csv": 14106,
+    "phase3.csv": 9176
+  },
+  "missing_values": {},
+  "score_statistics": {
+    "mean": 11.120780972665957,
+    "median": 1.0,
+    "std": 78.14502372151169,
+    "min": 0,
+    "max": 3275
+  },
+  "text_length_statistics": {
+    "mean_chars": 845.793525026624,
+    "median_chars": 536.0,
+    "std_chars": 1139.3308018930804
+  },
+  "distress_distribution": {
+    "True": 70425
+  },
+  "output_file": "data/processed/posts_merged_final.csv"
+}

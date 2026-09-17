@@ -1,0 +1,42 @@
+{
+  "final_41": {
+    "config_id": "u_nn50_c10__h_mcs300_ms10_leaf",
+    "n_topics": 41,
+    "outlier_rate": 0.0082,
+    "avg_topic_size": 1703.5,
+    "median_topic_size": 1420,
+    "smallest_topic": 498,
+    "largest_topic": 4770,
+    "size_std": 949.6,
+    "topics_lt_100": 0,
+    "topics_lt_200": 0,
+    "c_v": 0.6518,
+    "c_npmi": 0.1419,
+    "topic_diversity": 0.7195,
+    "intra_sim": 0.7285,
+    "inter_sim_emb": 0.8327,
+    "inter_sim_ctfidf": 0.2156,
+    "separation": -0.1042,
+    "redundant_pairs": 128
+  },
+  "baseline_98_same_pipeline": {
+    "n_topics": 98,
+    "outlier_rate": 0.0003,
+    "avg_topic_size": 718.4,
+    "median_topic_size": 607,
+    "smallest_topic": 149,
+    "largest_topic": 2636,
+    "size_std": 513.5,
+    "topics_lt_100": 0,
+    "topics_lt_200": 4,
+    "c_v": 0.6258,
+    "c_npmi": 0.1356,
+    "topic_diversity": 0.6408,
+    "intra_sim": 0.7432,
+    "inter_sim_emb": 0.786,
+    "inter_sim_ctfidf": 0.1457,
+    "separation": -0.0428,
+    "redundant_pairs": 280
+  },
+  "note": "Both measured via identical metric pipeline on final all-assigned labels. Embedding-centroid separation/inter_sim_emb excluded from selection (confounded with topic count)."
+}

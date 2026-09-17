@@ -1,0 +1,9 @@
+theme,n_topics,documents,percentage,mean_c_v,mean_confidence,distress_category
+Entrance Exam Preparation,11,19136,27.4,0.6937,0.7391,Academic Distress
+"Careers, Placements & Jobs",6,11277,16.15,0.7644,0.719,Career Distress
+College & Academic Decisions,6,10376,14.86,0.6792,0.741,Academic Planning (Low-Distress)
+Coaching & Study Resources,6,7937,11.36,0.6377,0.7187,Institutional / Academic Support
+Higher Studies & Global Mobility,3,7445,10.66,0.6715,0.7413,Career Planning
+Mental Health & Wellbeing,3,4824,6.91,0.4703,0.7226,Emotional Distress
+General Venting,1,4770,6.83,0.8599,0.7551,Coping / Cultural Expression
+Coping & Meme Culture,5,4080,5.84,0.4637,0.7152,Coping / Cultural Expression

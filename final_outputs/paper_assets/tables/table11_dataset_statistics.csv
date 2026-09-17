@@ -1,0 +1,12 @@
+statistic,value
+Posts (corpus),70425
+Posts assigned to a topic,69845
+Outliers (topic -1),580
+Topics,41
+Themes,8
+Distress types,6
+Subreddits,11
+Lifecycle stages,5
+Median topic size,1420
+Largest topic,4770
+Smallest topic,498

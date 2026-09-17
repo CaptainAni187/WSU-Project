@@ -1,0 +1,16 @@
+{
+  "model_name": "HingBERT-Mixed-v2",
+  "metrics": {
+    "total_docs": 138989,
+    "n_topics": 114,
+    "outlier_rate": 0.0342,
+    "norm_entropy": 0.9259,
+    "gini_coeff": 0.435,
+    "top3_concentration": 0.1554,
+    "coherence_proxy": 0.1663,
+    "topic_diversity": 0.5526,
+    "keyword_stability": 0.1873,
+    "phrases_found": 7,
+    "artifact_topics": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model_name": "mentalbert",
+  "metrics": {
+    "total_docs": 70425,
+    "n_topics": 62,
+    "outlier_rate": 0.0006,
+    "norm_entropy": 0.9648,
+    "gini_coeff": 0.3001,
+    "top3_concentration": 0.1135,
+    "coherence_proxy": 0.1008,
+    "topic_diversity": 0.3645,
+    "keyword_stability": 0.3142,
+    "phrases_found": 4,
+    "artifact_topics": 0
+  }
+}

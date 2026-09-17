@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Environments & caches
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+.python_packages/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Hugging Face model downloads (re-downloaded automatically when needed)
+model_cache/
+.model_cache/
+.cache/
+*.bin
+*.safetensors
+
+# ---------------------------------------------------------------------------
+# Local-only folders
+# ---------------------------------------------------------------------------
+# earlier iterations: MuRIL-era code, notebooks, superseded outputs
+draft/
+logs/
+tmp/
+temp/
+*.log
+
+# Manuscript is under review: keep PDFs/sources out until publication
+paper/*
+!paper/README.md
+
+# ---------------------------------------------------------------------------
+# Data is NOT redistributed (Reddit content + usernames). See data/README.md
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+
+# Embedding matrices and UMAP caches (multi-GB, regenerable)
+*.npy
+
+# ---------------------------------------------------------------------------
+# final_outputs: aggregate results, metrics and figures ARE tracked.
+# Anything containing raw Reddit text or per-post IDs is NOT.
+# ---------------------------------------------------------------------------
+# Representative_Docs column holds post excerpts
+final_outputs/**/topic_info.csv
+# per-document topic assignments
+final_outputs/**/topics.csv
+final_outputs/**/representative_docs.csv
+final_outputs/**/representative_documents/
+final_outputs/**/table04_representative_documents.csv
+# full post text (110 MB)
+final_outputs/**/topic_model_input.csv
+final_outputs/comments_analysis/comments_preprocessed.csv
+final_outputs/comments_analysis/comments_taxonomy.csv
+# quotes example posts
+final_outputs/annotation_validation/*_error_analysis.md

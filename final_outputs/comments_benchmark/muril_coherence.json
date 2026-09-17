@@ -1,0 +1,9 @@
+{
+  "model": "MuRIL",
+  "c_v": 0.5463,
+  "c_npmi": 0.0403,
+  "n_topics": 142,
+  "dictionary_size": 12806,
+  "sample_size": 20000,
+  "elapsed_seconds": 7.1
+}

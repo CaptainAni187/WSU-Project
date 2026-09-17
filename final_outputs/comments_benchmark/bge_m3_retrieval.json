@@ -1,0 +1,119 @@
+{
+  "model": "BGE-m3",
+  "results": [
+    {
+      "query": "jee burnout exam stress unable to study",
+      "top1_doc": "i have adv in like 10 days and i'm not able to study. massive burnout ho raha hai bhai\ud83d\ude2d\ud83d\ude2d",
+      "top1_score": 0.6696,
+      "top1_relevance": 0.222,
+      "avg_relevance": 0.144,
+      "top10_scores": [
+        0.6696,
+        0.6541,
+        0.6519,
+        0.6366,
+        0.6364,
+        0.6351,
+        0.6336,
+        0.6331,
+        0.6326,
+        0.6325
+      ]
+    },
+    {
+      "query": "nta ki mkc unfair exam result frustration",
+      "top1_doc": "all homies hate nta, nta_ki_mkc",
+      "top1_score": 0.6446,
+      "top1_relevance": 0.286,
+      "avg_relevance": 0.271,
+      "top10_scores": [
+        0.6446,
+        0.6403,
+        0.631,
+        0.6278,
+        0.6278,
+        0.6278,
+        0.6278,
+        0.6278,
+        0.6278,
+        0.6278
+      ]
+    },
+    {
+      "query": "drop year regret feeling wasted my life",
+      "top1_doc": "thanks targetting april attempt and bitsat and it fells like i wasted my drop_year but tryingnto make out the most of it in remaining time",
+      "top1_score": 0.7462,
+      "top1_relevance": 0.429,
+      "avg_relevance": 0.286,
+      "top10_scores": [
+        0.7462,
+        0.7433,
+        0.7428,
+        0.7335,
+        0.7311,
+        0.7304,
+        0.722,
+        0.72,
+        0.7197,
+        0.7189
+      ]
+    },
+    {
+      "query": "placement anxiety no job offers tier 3 college",
+      "top1_doc": "great post .i feel kinda sad being from tier_3 ece where no ece companies come. how's the scenario for off campus ece core placements ?",
+      "top1_score": 0.7322,
+      "top1_relevance": 0.25,
+      "avg_relevance": 0.113,
+      "top10_scores": [
+        0.7322,
+        0.704,
+        0.6916,
+        0.6795,
+        0.6759,
+        0.6755,
+        0.6725,
+        0.671,
+        0.6707,
+        0.6671
+      ]
+    },
+    {
+      "query": "suicidal after jee feel like dying no hope",
+      "top1_doc": "jee feels like a concentration camp now",
+      "top1_score": 0.7066,
+      "top1_relevance": 0.0,
+      "avg_relevance": 0.086,
+      "top10_scores": [
+        0.7066,
+        0.6778,
+        0.6719,
+        0.67,
+        0.6644,
+        0.6569,
+        0.6566,
+        0.6531,
+        0.6524,
+        0.6522
+      ]
+    },
+    {
+      "query": "life barbaad sab khatam failed everything",
+      "top1_doc": "we all failed him.",
+      "top1_score": 0.6132,
+      "top1_relevance": 0.143,
+      "avg_relevance": 0.114,
+      "top10_scores": [
+        0.6132,
+        0.598,
+        0.5969,
+        0.5932,
+        0.5922,
+        0.5913,
+        0.5863,
+        0.5828,
+        0.5823,
+        0.5797
+      ]
+    }
+  ]
+}

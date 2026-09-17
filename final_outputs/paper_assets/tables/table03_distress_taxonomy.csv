@@ -1,0 +1,7 @@
+distress_type,definition,n_topics,documents,percentage,topic_ids
+Academic Distress,"Pressure, failure and anxiety directly tied to exams, marks and studying.",14,24045,34.43,"3, 8, 9, 12, 16, 17, 18, 27, 31, 32, 35, 36, 38, 39"
+Career Distress,"Uncertainty and stress about placements, jobs, salary and future pathways.",9,18722,26.81,"0, 1, 4, 7, 10, 13, 19, 20, 23"
+Informational / Low-Distress,"Guidance, decisions and resource-sharing with limited affective distress.",6,10689,15.3,"5, 15, 21, 28, 29, 37"
+Coping Expression,"In-group memes, humour and venting used to process distress collectively.",6,8850,12.67,"2, 11, 14, 22, 24, 30"
+Emotional Distress,"Explicit mental-health signals: depression, suicidal ideation, burnout, loneliness.",3,4824,6.91,"6, 26, 34"
+Institutional Distress,"Frustration with coaching institutes, exam administration and logistics.",3,2715,3.89,"25, 33, 40"

@@ -1,0 +1,9 @@
+theme,n_topics,documents,percentage,distress_category,topic_ids,description
+Entrance Exam Preparation,11,19136,27.4,Academic Distress,"3, 9, 12, 16, 18, 27, 31, 32, 35, 38, 39","Preparation, attempts, marks and dropping decisions across India's high-stakes entrance exams (JEE Main/Advanced, NEET, CAT, UPSC, boards, improvement exams) and subject-level study for them."
+"Careers, Placements & Jobs",6,11277,16.15,Career Distress,"0, 4, 7, 19, 20, 23","Placements and recruitment drives, salary/CTC, interviews and hiring processes, internships, resumes and coding/DSA skill-building for jobs."
+College & Academic Decisions,6,10376,14.86,Academic Planning (Low-Distress),"5, 21, 28, 29, 36, 37","Branch and stream selection, engineering disciplines, CGPA/backlogs and everyday college academic life — the decision and performance side of undergraduate study."
+Coaching & Study Resources,6,7937,11.36,Institutional / Academic Support,"8, 15, 17, 25, 33, 40","Coaching institutes (Allen, PW, FIITJEE, Aakash), lectures and faculty, study material (modules, HCV, Cengage), exam-day logistics and result-day discussion."
+Higher Studies & Global Mobility,3,7445,10.66,Career Planning,"1, 10, 13","Post-graduate pathways: GATE/M.Tech, MBA/IIM admissions and profiles, and studying abroad (master's, visas, universities)."
+Mental Health & Wellbeing,3,4824,6.91,Emotional Distress,"6, 26, 34","Explicit emotional distress (depression, suicidal ideation), burnout, sleep and anxiety, and social isolation / relationships."
+General Venting,1,4770,6.83,Coping / Cultural Expression,2,Free-form Hinglish personal narrative and venting that is not tied to a single concrete sub-topic (the corpus's natural catch-all).
+Coping & Meme Culture,5,4080,5.84,Coping / Cultural Expression,"11, 14, 22, 24, 30","Community coping through humour and in-group memes — hopium/copium, 'cooked', 'canon event', fatalistic 'barbaad' venting and the ALECC coaching-meme subculture."

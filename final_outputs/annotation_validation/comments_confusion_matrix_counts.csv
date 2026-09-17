@@ -1,0 +1,13 @@
+Human / Assistant,advice_guidance,blame_criticism,crisis_escalation,dismissive_minimizing,encouragement_motivation,humor_meme_coping,information_resources,neutral_discussion,personal_experience,self_disclosure,support_empathy,toxic_abusive
+advice_guidance,7,1,3,2,2,1,2,1,0,1,3,0
+blame_criticism,0,4,0,0,0,0,0,0,0,0,0,0
+crisis_escalation,0,0,3,0,0,1,1,0,1,0,0,1
+dismissive_minimizing,0,0,0,0,0,0,0,0,0,0,0,0
+encouragement_motivation,0,0,0,1,5,1,0,0,0,0,0,2
+humor_meme_coping,0,1,0,0,0,0,2,0,0,0,1,0
+information_resources,0,0,0,0,0,0,0,0,0,0,0,0
+neutral_discussion,12,17,16,20,15,22,19,23,18,19,16,18
+personal_experience,4,0,2,0,2,0,1,0,5,4,2,1
+self_disclosure,0,0,0,0,0,0,0,0,0,0,0,0
+support_empathy,2,2,1,2,1,0,0,1,1,0,3,0
+toxic_abusive,0,0,0,0,0,0,0,0,0,1,0,3

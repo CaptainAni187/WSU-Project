@@ -1,0 +1,19 @@
+{
+  "config_id": "u_nn50_c10__h_mcs300_ms10_leaf",
+  "umap": {
+    "n_neighbors": 50,
+    "n_components": 10,
+    "min_dist": 0.0,
+    "metric": "cosine",
+    "random_state": 42
+  },
+  "hdbscan": {
+    "min_cluster_size": 300,
+    "min_samples": 10,
+    "cluster_selection_method": "leaf",
+    "metric": "euclidean"
+  },
+  "representation": "corpus-level stopword+bigram CountVectorizer + KeyBERTInspired + MaximalMarginalRelevance(0.3)",
+  "outlier_reduction": "reduce_outliers(strategy='c-tf-idf', threshold=0.05)",
+  "embeddings": "BAAI/bge-m3 (FROZEN), 70425 x 1024, L2-normalized"
+}

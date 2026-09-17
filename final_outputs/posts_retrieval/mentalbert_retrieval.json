@@ -1,0 +1,331 @@
+{
+  "model": "MentalBERT",
+  "aggregated": {
+    "p@10": {
+      "mean": 0.444,
+      "std": 0.37103099600976736
+    },
+    "r@10": {
+      "mean": 0.0003214440627956916,
+      "std": 0.00037573997306099256
+    },
+    "map": {
+      "mean": 0.5434043209876543,
+      "std": 0.39501738348391896
+    },
+    "mrr": {
+      "mean": 0.601,
+      "std": 0.4388895077351474
+    },
+    "ndcg@10": {
+      "mean": 0.14876934898080343,
+      "std": 0.14709332759464605
+    },
+    "avg_relevance": {
+      "mean": 0.1161619070917368,
+      "std": 0.111842950878678
+    }
+  },
+  "queries": [
+    {
+      "query": "jee mains advanced preparation stress",
+      "category": "exams",
+      "metrics": {
+        "p@10": 1.0,
+        "r@10": 0.0005170363476552401,
+        "map": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 0.44122901130572895,
+        "avg_relevance": 0.36000001430511475
+      }
+    },
+    {
+      "query": "neet biology physics chemistry preparation",
+      "category": "exams",
+      "metrics": {
+        "p@10": 0.3,
+        "r@10": 0.00027662517289073305,
+        "map": 0.2619047619047619,
+        "mrr": 0.2,
+        "ndcg@10": 0.04867180677713485,
+        "avg_relevance": 0.06000000238418579
+      }
+    },
+    {
+      "query": "academic burnout can not study anymore",
+      "category": "burnout",
+      "metrics": {
+        "p@10": 0.6,
+        "r@10": 0.00015100797825485113,
+        "map": 0.7847222222222222,
+        "mrr": 1.0,
+        "ndcg@10": 0.14230662494477925,
+        "avg_relevance": 0.11666665971279144
+      }
+    },
+    {
+      "query": "padhai nahi ho rahi hai exhausted",
+      "category": "burnout",
+      "metrics": {
+        "p@10": 0.9,
+        "r@10": 0.0005917937927406628,
+        "map": 0.9626543209876544,
+        "mrr": 1.0,
+        "ndcg@10": 0.28120365802172964,
+        "avg_relevance": 0.23333334922790527
+      }
+    },
+    {
+      "query": "drop year waste of life regret",
+      "category": "drop_year",
+      "metrics": {
+        "p@10": 0.0,
+        "r@10": 0.0,
+        "map": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0,
+        "avg_relevance": 0.0
+      }
+    },
+    {
+      "query": "double dropper partial dropper failure",
+      "category": "drop_year",
+      "metrics": {
+        "p@10": 1.0,
+        "r@10": 0.0016943409013893595,
+        "map": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 0.3333333333333333,
+        "avg_relevance": 0.25
+      }
+    },
+    {
+      "query": "low cgpa backlogs academic probation",
+      "category": "cgpa",
+      "metrics": {
+        "p@10": 0.0,
+        "r@10": 0.0,
+        "map": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0,
+        "avg_relevance": 0.0
+      }
+    },
+    {
+      "query": "semester failure cgpa khatam",
+      "category": "cgpa",
+      "metrics": {
+        "p@10": 0.0,
+        "r@10": 0.0,
+        "map": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0,
+        "avg_relevance": 0.0
+      }
+    },
+    {
+      "query": "no job offers placement season failure",
+      "category": "placements",
+      "metrics": {
+        "p@10": 0.3,
+        "r@10": 0.00012760527435133986,
+        "map": 0.7555555555555555,
+        "mrr": 1.0,
+        "ndcg@10": 0.14410313793598298,
+        "avg_relevance": 0.0833333358168602
+      }
+    },
+    {
+      "query": "tier 3 college no placement package",
+      "category": "placements",
+      "metrics": {
+        "p@10": 0.6,
+        "r@10": 0.0002345124096150088,
+        "map": 0.8037037037037037,
+        "mrr": 1.0,
+        "ndcg@10": 0.22988601954105622,
+        "avg_relevance": 0.20000000298023224
+      }
+    },
+    {
+      "query": "no internship experience coding skills",
+      "category": "internships",
+      "metrics": {
+        "p@10": 0.4,
+        "r@10": 0.0001753539958791811,
+        "map": 0.43214285714285716,
+        "mrr": 0.5,
+        "ndcg@10": 0.0721980554385323,
+        "avg_relevance": 0.07999999821186066
+      }
+    },
+    {
+      "query": "tech layoffs recession job loss",
+      "category": "layoffs",
+      "metrics": {
+        "p@10": 1.0,
+        "r@10": 0.0008063215610385422,
+        "map": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 0.5247548197239271,
+        "avg_relevance": 0.3400000035762787
+      }
+    },
+    {
+      "query": "fresher layoff company shut down",
+      "category": "layoffs",
+      "metrics": {
+        "p@10": 0.3,
+        "r@10": 0.00035198873636043646,
+        "map": 0.39999999999999997,
+        "mrr": 0.5,
+        "ndcg@10": 0.07716686211323162,
+        "avg_relevance": 0.06000000238418579
+      }
+    },
+    {
+      "query": "leetcode dsa unable to solve easy",
+      "category": "coding",
+      "metrics": {
+        "p@10": 0.2,
+        "r@10": 3.852376916557516e-05,
+        "map": 0.2,
+        "mrr": 0.2,
+        "ndcg@10": 0.02975278276417814,
+        "avg_relevance": 0.03333333507180214
+      }
+    },
+    {
+      "query": "competitive programming beginner stuck",
+      "category": "coding",
+      "metrics": {
+        "p@10": 0.1,
+        "r@10": 0.00021978021978021978,
+        "map": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 0.07336392209936005,
+        "avg_relevance": 0.02500000037252903
+      }
+    },
+    {
+      "query": "branch regret cse mech civil",
+      "category": "branch_regret",
+      "metrics": {
+        "p@10": 0.0,
+        "r@10": 0.0,
+        "map": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0,
+        "avg_relevance": 0.0
+      }
+    },
+    {
+      "query": "hostel life mess food terrible",
+      "category": "hostel",
+      "metrics": {
+        "p@10": 0.0,
+        "r@10": 0.0,
+        "map": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0,
+        "avg_relevance": 0.0
+      }
+    },
+    {
+      "query": "lonely no friends college isolated",
+      "category": "loneliness",
+      "metrics": {
+        "p@10": 0.0,
+        "r@10": 0.0,
+        "map": 0.0,
+        "mrr": 0.0,
+        "ndcg@10": 0.0,
+        "avg_relevance": 0.0
+      }
+    },
+    {
+      "query": "depression therapy medication need help",
+      "category": "depression",
+      "metrics": {
+        "p@10": 0.8,
+        "r@10": 0.00029976019184652276,
+        "map": 0.8106150793650794,
+        "mrr": 1.0,
+        "ndcg@10": 0.3561482648315761,
+        "avg_relevance": 0.2600000202655792
+      }
+    },
+    {
+      "query": "anxiety panic attacks before exam",
+      "category": "anxiety",
+      "metrics": {
+        "p@10": 1.0,
+        "r@10": 0.0005372300419039433,
+        "map": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 0.20000000298023227,
+        "avg_relevance": 0.20000000298023224
+      }
+    },
+    {
+      "query": "want to end my life suicide",
+      "category": "suicidal_ideation",
+      "metrics": {
+        "p@10": 0.7,
+        "r@10": 0.0001267863288112876,
+        "map": 0.7023809523809524,
+        "mrr": 0.5,
+        "ndcg@10": 0.2213198862381525,
+        "avg_relevance": 0.25
+      }
+    },
+    {
+      "query": "mar jana hai sab khatam hopeless",
+      "category": "suicidal_ideation",
+      "metrics": {
+        "p@10": 0.9,
+        "r@10": 0.0006953028430160692,
+        "map": 0.9888888888888889,
+        "mrr": 1.0,
+        "ndcg@10": 0.258186966039002,
+        "avg_relevance": 0.1666666567325592
+      }
+    },
+    {
+      "query": "sab barbaad ho gaya kuch nahi bacha",
+      "category": "implicit_distress",
+      "metrics": {
+        "p@10": 0.5,
+        "r@10": 0.0004043344654698367,
+        "map": 0.6392857142857142,
+        "mrr": 1.0,
+        "ndcg@10": 0.11689060583951805,
+        "avg_relevance": 0.08571429550647736
+      }
+    },
+    {
+      "query": "nta unfair result delay cheating",
+      "category": "nta",
+      "metrics": {
+        "p@10": 0.4,
+        "r@10": 0.0007455731593662628,
+        "map": 0.7182539682539681,
+        "mrr": 1.0,
+        "ndcg@10": 0.15483171999835418,
+        "avg_relevance": 0.07999999821186066
+      }
+    },
+    {
+      "query": "coaching institute wasted money time",
+      "category": "coaching",
+      "metrics": {
+        "p@10": 0.1,
+        "r@10": 4.2224380357218257e-05,
+        "map": 0.125,
+        "mrr": 0.125,
+        "ndcg@10": 0.013886244594276618,
+        "avg_relevance": 0.019999999552965164
+      }
+    }
+  ]
+}

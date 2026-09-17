@@ -1,0 +1,14 @@
+{
+  "chi2": 9281,
+  "dof": 66,
+  "p": 0.0,
+  "cramers_v": 0.105,
+  "RR_crisis": 3.83,
+  "RR_support": 1.79,
+  "sui_zero_support_pct": 50.1,
+  "sui_any_harm_pct": 56.5,
+  "sui_any_crisis_pct": 27.4,
+  "crisis_upvote": 3.53,
+  "support_upvote": 2.79,
+  "upvote_mwu_p": 0.0015
+}
