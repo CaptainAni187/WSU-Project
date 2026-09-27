@@ -40,9 +40,105 @@ flowchart LR
     N -.-> M
 ```
 
-**Engineering notes**
-- Embedding generation runs in **10K-document checkpointed chunks** with **length-sorted batching** (less padding) and automatic **MPS / CUDA / CPU** selection, so multi-hour runs resume after interruption without recomputation.
-- The hyperparameter search **caches UMAP reductions** and scores every configuration on **count-independent** quality (coherence, stability, keyword distinctiveness, near-duplicate pairs), because centroid-separation metrics were found to be confounded with topic count (r = −0.88).
+---
+
+## System design
+
+### Resumable chunked inference
+
+`scripts/posts/generate_posts_embeddings.py` · `scripts/comments/generate_comments_embeddings.py`
+
+```mermaid
+flowchart TD
+    A["Load corpus<br/>70,425 preprocessed texts"] --> B["Select device<br/>MPS → CUDA → CPU fallback"]
+    B --> V["Probe model with one input<br/>verify embedding dimension"]
+    V --> C{"Next 10K chunk"}
+
+    subgraph W["Per-chunk worker"]
+        direction TB
+        D{"Checkpoint file<br/>already on disk?"}
+        E["Sort chunk by token length<br/>minimises padding waste"]
+        F["Batched inference<br/>batch 64 · 256 tokens · CLS vector"]
+        G["Scatter vectors back to<br/>original document order"]
+        P["Save chunk checkpoint"]
+        D -->|"miss — compute"| E
+        E --> F
+        F --> G
+        G --> P
+    end
+
+    C -->|"chunk pending"| D
+    D -->|"hit — skip, already done"| C
+    P -->|"chunk complete"| C
+
+    C -->|"all chunks issued"| M{"Every chunk<br/>present on disk?"}
+    M -->|"no — missing chunk"| X["Abort, non-zero exit"]
+    M -->|"yes"| H["Assemble chunks<br/>into one matrix"]
+    H --> S["Save embeddings .npy"]
+    S --> R["Release device memory"]
+```
+
+- A killed run resumes at chunk granularity — completed chunks are skipped, nothing is recomputed.
+- Documents are reordered by length for throughput, then scattered back to their original indices, so output row order still matches the input corpus.
+- Assembly refuses to write a partial matrix: a missing chunk aborts the run with a non-zero exit code.
+- Vectors are written unnormalised; consumers L2-normalise on load.
+
+### Cached configuration sweep
+
+`src/pipeline/bertopic_search.py`
+
+```mermaid
+sequenceDiagram
+    participant S as Sweep driver
+    participant J as search_results.jsonl
+    participant C as UMAP cache on disk
+    participant U as UMAP fit — expensive
+    participant H as HDBSCAN — cheap
+
+    S->>J: read completed config_ids
+    J-->>S: resume set
+
+    loop each UMAP config
+        S->>C: reduction for config + seed 42
+        alt cache hit
+            C-->>S: load reduced matrix
+        else cache miss
+            S->>U: fit_transform L2-normalised embeddings
+            U-->>S: reduced matrix
+            S->>C: persist reduction
+        end
+
+        loop each HDBSCAN config
+            alt already in resume set
+                S->>S: skip, already scored
+            else not yet scored
+                S->>H: cluster seed-42 reduction
+                H-->>S: labels
+                alt fewer than 6 topics or over 70% outliers
+                    S->>J: append invalid record + reason
+                else passes sanity gate
+                    S->>S: c-TF-IDF keywords, coherence, diversity, separation
+                    opt second seed not yet reduced
+                        S->>C: reduction for config + seed 7
+                        C-->>S: reduced matrix
+                    end
+                    S->>H: cluster seed-7 reduction
+                    H-->>S: labels
+                    S->>S: stability = ARI over both seeds
+                    S->>J: append metrics record
+                end
+            end
+        end
+    end
+
+    S->>J: read all records
+    J-->>S: rank configs and write report
+```
+
+- The sweep is itself resumable: completed `config_id`s are read back from the append-only JSONL log and skipped, so an interrupted search continues where it stopped.
+- The cache key is the UMAP configuration plus the seed, so one expensive reduction serves every clustering configuration that shares it — this is what makes a 30-configuration search affordable. The second seed is reduced lazily, only once a configuration actually reaches the stability check.
+- Collapsed configurations (fewer than 6 topics, or over 70% outliers) are rejected before any scoring runs.
+- Surviving configurations are scored on count-independent quality (coherence, stability, keyword distinctiveness, near-duplicate pairs), because centroid-separation metrics were confounded with topic count (r = −0.88).
 - Every stage writes frozen intermediate artifacts, so any stage can be re-run in isolation.
 
 ---
